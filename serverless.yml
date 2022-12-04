@@ -1,0 +1,27 @@
+service: sls-almusiqaa-backend
+frameworkVersion: "3"
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  region: us-east-1
+  stage: prod-env
+  memorySize: 128
+  timeout: 7
+  iam:
+    role: arn:aws:iam::252960491156:role/almusiqaa-login-backend
+
+functions:
+  login:
+    handler: login.login
+    events:
+      - http: POST /login
+          cors: true
+  register:
+    handler: register.register
+    events:
+      - http: POST /register
+          cors: true

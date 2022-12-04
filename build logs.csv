@@ -1,0 +1,183 @@
+timestamp,message
+1667162636542,"[Container] 2022/10/30 20:43:49 going inside waitForAgent
+"
+1667162636542,"[Container] 2022/10/30 20:43:49 Waiting for agent ping
+"
+1667162636542,"[Container] 2022/10/30 20:43:50 Waiting for DOWNLOAD_SOURCE
+"
+1667162636542,"[Container] 2022/10/30 20:43:50 Phase is DOWNLOAD_SOURCE
+"
+1667162636542,"[Container] 2022/10/30 20:43:50 finished waitForAgent
+"
+1667162636542,"[Container] 2022/10/30 20:43:50 inside CopySrc
+"
+1667162636542,"[Container] 2022/10/30 20:43:50 CODEBUILD_SRC_DIR=/codebuild/output/src516612989/src
+"
+1667162636542,"[Container] 2022/10/30 20:43:50 finished CopySrc
+"
+1667162636542,"[Container] 2022/10/30 20:43:50 YAML location is /codebuild/output/src516612989/src/buildspec.yml
+"
+1667162636542,"[Container] 2022/10/30 20:43:50 Setting HTTP client timeout to higher timeout for S3 source
+"
+1667162636542,"[Container] 2022/10/30 20:43:50 Processing environment variables
+"
+1667162636542,"[Container] 2022/10/30 20:43:50 No runtime version selected in buildspec.
+"
+1667162636542,"[Container] 2022/10/30 20:43:52 Moving to directory /codebuild/output/src516612989/src
+"
+1667162636542,"[Container] 2022/10/30 20:43:52 Configuring ssm agent with target id: codebuild:2e74a9a9-7ea5-4032-9426-9280501a05db
+"
+1667162636542,"[Container] 2022/10/30 20:43:52 Successfully updated ssm agent configuration
+"
+1667162636542,"[Container] 2022/10/30 20:43:52 Registering with agent
+"
+1667162636542,"[Container] 2022/10/30 20:43:52 Phases found in YAML: 4
+"
+1667162636542,"[Container] 2022/10/30 20:43:52  POST_BUILD: 1 commands
+"
+1667162636542,"[Container] 2022/10/30 20:43:52  INSTALL: 2 commands
+"
+1667162636542,"[Container] 2022/10/30 20:43:52  PRE_BUILD: 2 commands
+"
+1667162636542,"[Container] 2022/10/30 20:43:52  BUILD: 3 commands
+"
+1667162636542,"[Container] 2022/10/30 20:43:52 Phase complete: DOWNLOAD_SOURCE State: SUCCEEDED
+"
+1667162636542,"[Container] 2022/10/30 20:43:52 Phase context status code:  Message: 
+"
+1667162636542,"[Container] 2022/10/30 20:43:52 Entering execCommands
+"
+1667162636542,"[Container] 2022/10/30 20:43:52 Entering phase INSTALL
+"
+1667162636542,"[Container] 2022/10/30 20:43:52 Running command echo Installing Serverless...
+"
+1667162636542,"Installing Serverless...
+"
+1667162636542,"
+"
+1667162636542,"[Container] 2022/10/30 20:43:52 Running command npm install -g serverless
+"
+1667162646598,"npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+"
+1667162658650,"npm WARN deprecated @types/keyv@4.2.0: This is a stub types definition. keyv provides its own type definitions, so you do not need this installed.
+"
+1667162660698,"npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+"
+1667162660698,"npm WARN deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+"
+1667162660698,"npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+"
+1667162660698,"npm WARN deprecated superagent@7.1.6: Please downgrade to v7.1.5 if you need IE/ActiveXObject support OR upgrade to v8.0.0 as we no longer support IE and published an incorrect patch version (see https://github.com/visionmedia/superagent/issues/1731)
+"
+1667162664729,"
+"
+1667162664729,"added 431 packages, and audited 432 packages in 18s
+"
+1667162664729,"
+"
+1667162664729,"91 packages are looking for funding
+"
+1667162664729,"  run `npm fund` for details
+"
+1667162664729,"
+"
+1667162664729,"found 0 vulnerabilities
+"
+1667162664729,"
+"
+1667162664729,"[Container] 2022/10/30 20:44:23 Phase complete: INSTALL State: SUCCEEDED
+"
+1667162664729,"[Container] 2022/10/30 20:44:23 Phase context status code:  Message: 
+"
+1667162664729,"[Container] 2022/10/30 20:44:23 Entering phase PRE_BUILD
+"
+1667162664729,"[Container] 2022/10/30 20:44:23 Running command echo Install source NPM dependencies...
+"
+1667162664729,"Install source NPM dependencies...
+"
+1667162664729,"
+"
+1667162664729,"[Container] 2022/10/30 20:44:23 Running command npm install
+"
+1667162668758,"npm WARN deprecated @types/keyv@4.2.0: This is a stub types definition. keyv provides its own type definitions, so you do not need this installed.
+"
+1667162668758,"npm WARN deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+"
+1667162668758,"npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+"
+1667162670783,"npm WARN deprecated superagent@7.1.6: Please downgrade to v7.1.5 if you need IE/ActiveXObject support OR upgrade to v8.0.0 as we no longer support IE and published an incorrect patch version (see https://github.com/visionmedia/superagent/issues/1731)
+"
+1667162674809,"
+"
+1667162674809,"added 649 packages, and audited 650 packages in 10s
+"
+1667162674809,"
+"
+1667162674809,"119 packages are looking for funding
+"
+1667162674809,"  run `npm fund` for details
+"
+1667162674809,"
+"
+1667162674809,"found 0 vulnerabilities
+"
+1667162674809,"
+"
+1667162674809,"[Container] 2022/10/30 20:44:33 Phase complete: PRE_BUILD State: SUCCEEDED
+"
+1667162674809,"[Container] 2022/10/30 20:44:33 Phase context status code:  Message: 
+"
+1667162674809,"[Container] 2022/10/30 20:44:33 Entering phase BUILD
+"
+1667162674809,"[Container] 2022/10/30 20:44:33 Running command echo deployment started on `date`
+"
+1667162674809,"deployment started on Sun Oct 30 20:44:33 UTC 2022
+"
+1667162674809,"
+"
+1667162674809,"[Container] 2022/10/30 20:44:33 Running command echo deploying with serverless framework...
+"
+1667162674809,"deploying with serverless framework...
+"
+1667162674809,"
+"
+1667162674809,"[Container] 2022/10/30 20:44:33 Running command sls deploy --stage $ENV_NAME
+"
+1667162674809,"Running ""serverless"" from node_modules
+"
+1667162678834,"
+"
+1667162678834,"Deploying sls-poc-assignment to stage prod-env (us-east-1)
+"
+1667162745770,"
+"
+1667162745770,"✔ Service deployed to stack sls-poc-assignment-prod-env (65s)
+"
+1667162745770,"
+"
+1667162745770,"endpoint: POST - https://6d8mv3kmp8.execute-api.us-east-1.amazonaws.com/prod-env/inputs
+"
+1667162745770,"functions:
+"
+1667162745770,"  index: sls-poc-assignment-prod-env-index (54 MB)
+"
+1667162745770,"
+"
+1667162745770,"[Container] 2022/10/30 20:45:43 Phase complete: BUILD State: SUCCEEDED
+"
+1667162745770,"[Container] 2022/10/30 20:45:43 Phase context status code:  Message: 
+"
+1667162745770,"[Container] 2022/10/30 20:45:43 Entering phase POST_BUILD
+"
+1667162745770,"[Container] 2022/10/30 20:45:43 Running command echo Deployment Completed on `data`...
+"
+1667162745770,"/codebuild/output/tmp/script.sh: line 4: data: command not found
+"
+1667162745770,"Deployment Completed on ...
+"
+1667162745770,"
+"
+1667162745770,"[Container] 2022/10/30 20:45:43 Phase complete: POST_BUILD State: SUCCEEDED
+"
+1667162745770,"[Container] 2022/10/30 20:45:43 Phase context status code:  Message: 
+"

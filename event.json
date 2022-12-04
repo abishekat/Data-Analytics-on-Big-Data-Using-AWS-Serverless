@@ -1,0 +1,11 @@
+{
+  "jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrTG9hZE1ldHJpYyI6Ik5ldHdvcmtJbl9BdmVyYWdlIiwiS2V5IjoiRFZELXRlc3RpbmcuanNvbiIsInJlcXVlc3RQYXJhbXMiOnsiYmF0Y2hVbml0IjoiMTAiLCJiYXRjaFNpemUiOiIxIiwiYmF0Y2hJZCI6IjEiLCJyd2ZJRCI6Int7JHRpbWVzdGFtcH19In19.UC1PCELC3XRrdgp9qKMfHbLCM_-IY7Rx6_TrVhlPqNk",
+  "workLoadMetric": "NetworkIn_Average",
+  "Key": "DVD-testing.json",
+  "requestParams": {
+    "batchUnit": "10",
+    "batchSize": "1",
+    "batchId": "1",
+    "rwfID": "{{$timestamp}}"
+  }
+}

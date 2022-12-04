@@ -1,0 +1,32 @@
+package userpackage;
+syntax = "proto3";
+
+message parameters {
+
+    message Requestparams {
+        string batchUnit = 1;
+        string batchSize = 2;
+        string batchId = 3;
+        string rwfID = 4;
+    }
+
+    string jwt = 1;
+    string workLoadMetric = 2;
+    string Key = 3;
+    Requestparams requestParams = 4;
+}
+
+message slicedData {
+
+    message Data {
+        string CPUUtilization_Average = 1;
+        string NetworkIn_Average = 2;
+        string NetworkOut_Average = 3;
+        string MemoryUtilization_Average = 4;
+        string Final_Target = 5;
+    }
+
+    string requestWorkFlowID = 1;
+    uint32 lastBatchID = 2;
+    repeated Data data = 3;
+}

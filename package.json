@@ -1,0 +1,19 @@
+{
+  "name": "serverless-poc-assignment-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1243.0",
+    "jwt-decode": "^3.1.2",
+    "protobufjs": "^7.1.2",
+    "serverless-offline": "^11.2.1",
+    "structjson": "^1.0.1"
+  }
+}
