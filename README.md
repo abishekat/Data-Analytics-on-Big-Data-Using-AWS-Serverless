@@ -1,4 +1,4 @@
-# gRPC-Gradle-MongoDB-RabbitMQ
+# Data-Analytics-on-Big-Data-Using-AWS-Serverless
 
 1. [Abishek Arumugam Thiruselvi](https://www.abishekarumugam.com)('40218896')
 
